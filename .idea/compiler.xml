@@ -11,7 +11,7 @@
         <module name="config-server" />
         <module name="api-movie" />
         <module name="eureka-server" />
-        <module name="api-serie" />
+        <module name="serie-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -21,6 +21,7 @@
       <module name="api-serie" target="17" />
       <module name="config-server" target="17" />
       <module name="eureka-server" target="17" />
+      <module name="serie-service" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -31,6 +32,7 @@
       <module name="api-serie" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="serie-service" options="-parameters" />
     </option>
   </component>
 </project>
