@@ -21,7 +21,7 @@ public class NewSerieEventProducer {
     }
 
 
-    public void newEventMovie(Data message){
+    public void newEventSerie(Data message){
         rabbitTemplate.convertAndSend(RabbitMQConfig.EXCHANGE_NAME,RabbitMQConfig.TOPIC_NEW_SERIE,message);
     }
     @AllArgsConstructor
